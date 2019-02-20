@@ -16,3 +16,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
         --filename=composer
 
 RUN chmod 777 -R /var/www/html/
+
+RUN a2enmod rewrite
